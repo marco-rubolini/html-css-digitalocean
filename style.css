@@ -29,12 +29,20 @@
     padding-top: 15px;
 }
 
+.sign-in h2 {
+    margin-bottom: 30px;
+}
+
 .header-bottom {
     font-weight: 500;
 }
 
 .navbar-default {
     background-color: white;
+}
+
+.navbar {
+    margin-bottom: 0;
 }
 
 .navbar-default .navbar-right>li>a:focus,
@@ -95,6 +103,7 @@
 
 #welcome {
     color: white;
+    padding: 60px 0;
 }
 
 .sign-in {
@@ -127,14 +136,14 @@
 .social-signin {
     height: 16px;
     /* margin-right: 5px; */
-    position: absolute;
-    top: 50%;
+    /* position: absolute; */
+    /* top: 50%;
     left: 0;
-    transform: translate(12px, -50%);
+    transform: translate(12px, -50%); */
 }
 
-.btn-relative {
-    position: relative;
+.btn-social {
+    /* position: relative; */
     font-size: 16px;
     color: #031b4e;
     background: #f2f8ff;
