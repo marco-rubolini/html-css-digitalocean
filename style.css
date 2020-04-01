@@ -42,3 +42,22 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+@media (max-width: 1024px) {
+    .navbar-toggle {
+        display: block;
+        float: right;
+    }
+
+    .navbar-brand {
+        float: none;
+    }
+
+    .collapse.navbar-collapse .nav.navbar-nav {
+        display: none;
+    }
+
+    .navbar-header {
+        float: none;
+    }
+}
