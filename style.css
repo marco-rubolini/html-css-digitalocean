@@ -71,6 +71,101 @@
     border-color: #0069ff;
 }
 
+.jumbotron {
+    background: #0248ff url(img/bg-jumbotron.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.jumbotron .alert-jumbotron p {
+    background-color: #00b47b;
+    border: 1px solid #009969;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.06);
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 300;
+    height: 40px;
+    line-height: 40px;
+}
+
+.welcome {
+    color: white;
+}
+
+.sign-in {
+    background-color: #fff;
+    border: 1px solid rgba(3,27,78,.1);
+    border-radius: 5px;
+    -webkit-box-shadow: 0 10px 20px rgba(3,27,78,.1);
+    box-shadow: 0 10px 20px rgba(3,27,78,.1);
+    margin: 0;
+    padding: 32px;
+}
+
+.signup {
+    margin-top: 15px;
+    position: relative;
+}
+
+/* .signup span::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: calc((100% - 60px) / 2);
+    height: 3px;
+    background-color: #e5e8ed;
+} */
+
+/* label {
+    opacity: 0;
+} */
+
+input[type=text],
+input[type=email],
+input[type=password] {
+    height: 48px;
+    max-width: 100%;
+    padding: 0 16px;
+    border: 1px solid #f1f1f1;
+    background: #fff;
+    color: rgba(3,27,78,.7);
+    -webkit-transition: all cubic-bezier(0.645, 0.045, 0.355, 1) .25s;
+    transition: all cubic-bezier(0.645, 0.045, 0.355, 1) .25s;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input:focus[type=text],
+input:focus[type=email],
+input:focus[type=password] {
+    border-color: #0069ff;
+    outline: 0;
+    background: #fff;
+    -webkit-box-shadow: 0 0 2px rgba(17,169,94,.5);
+    box-shadow: 0 0 2px rgba(17,169,94,.5);
+    color: rgba(3,27,78,.7);
+    z-index: 1;
+}
+
+
+.btn-submit {
+    width: 100%;
+    background-color: #0069ff;
+    border: none;
+    color: #fff;
+    transition: background-color .25s ease,border .25s ease,color .25s ease;
+}
+
+.btn-submit:hover {
+    background-color: #1633ff;
+    border: none;
+    color: #fff;
+}
+
 @media (max-width: 1024px) {
     .navbar-toggle {
         display: block;
