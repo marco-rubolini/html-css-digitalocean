@@ -238,6 +238,64 @@ a:hover {
     text-decoration: none;
 }
 
+/* #deploy p {
+    font-size: 19px;
+} */
+
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border-left: 2px solid #ddd;
+    border-top: 0;
+    border-bottom: 0;
+    border-right: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group .list-group-item:first-child {
+    border-left-color: #0069ff;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.list-group-item.active,
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+    cursor: default;
+    z-index: 2;
+    color: #031b4e;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.list-group-item a {
+    color: rgba(3,27,78,.5);
+    font-weight: 500;
+}
+
+.list-group-item a:hover {
+    color: #031b4e;
+    font-weight: 500;
+}
+
+
+.description {
+    font-size: 19px;
+}
+
+.box {
+    margin-bottom: 30px;
+}
+
+.box h3 {
+    margin-top: 0;
+}
+
 @media (max-width: 1024px) {
     .navbar-toggle {
         display: block;
