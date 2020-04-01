@@ -23,16 +23,18 @@
     color: #031b4e;
 }
 
+.sign-in p {
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
 .header-bottom {
     font-weight: 500;
 }
 
 .navbar-default {
     background-color: white;
-}
-
-.navbar-nav {
-
 }
 
 .navbar-default .navbar-right>li>a:focus,
@@ -75,6 +77,7 @@
     background: #0248ff url(img/bg-jumbotron.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
+    margin-bottom: 0;
 }
 
 .jumbotron .alert-jumbotron p {
@@ -87,11 +90,10 @@
     cursor: pointer;
     font-size: 16px;
     font-weight: 300;
-    height: 40px;
     line-height: 40px;
 }
 
-.welcome {
+#welcome {
     color: white;
 }
 
@@ -110,6 +112,36 @@
     position: relative;
 }
 
+.btn-signin {
+    margin: 15px 0;
+}
+
+.no-padding-left {
+    padding-left: 0;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.social-signin {
+    height: 16px;
+    /* margin-right: 5px; */
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(12px, -50%);
+}
+
+.btn-relative {
+    position: relative;
+    font-size: 16px;
+    color: #031b4e;
+    background: #f2f8ff;
+    border: 1px solid rgba(0,105,255,.2);
+    border-radius: 3px;
+    font-weight: 500;
+}
 /* .signup span::after {
     content: '';
     position: absolute;
@@ -164,6 +196,11 @@ input:focus[type=password] {
     background-color: #1633ff;
     border: none;
     color: #fff;
+}
+
+#business-solutions {
+    height: 200px;
+    background-color: #f3f5f9;
 }
 
 @media (max-width: 1024px) {
