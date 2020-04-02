@@ -355,6 +355,48 @@ a:hover {
     cursor: default;
 }
 
+#data-center {
+    background: #031b4e url(img/data-center.svg);
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+    color: white;
+}
+
+#data-center h2 {
+    color: white;
+    font-size: 40px;
+}
+
+#data-center .table td:nth-of-type(2n+2) {
+    color: white;
+    opacity: .6;
+}
+
+#data-center .table td:first-of-type {
+    color: white;
+    font-weight: 500;
+}
+
+#data-center .table>tbody>tr:not(:last-of-type) {
+    border-bottom: 1px solid hsla(0,0%,100%,.2);
+    border-top: 0;
+}
+
+#data-center .table>tbody>tr>td {
+    border-top: 0;
+}
+
+#data-center a {
+    color: #00d7d2;
+    font-weight: 400;
+}
+
+#data-center a:hover {
+    color: #005fe6;
+}
+
 @media (max-width: 1024px) {
     .navbar-toggle {
         display: block;
