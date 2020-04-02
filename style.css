@@ -135,6 +135,8 @@
 
 .social-signin {
     height: 16px;
+    float: left;
+    margin-top: 3px;
     /* margin-right: 5px; */
     /* position: absolute; */
     /* top: 50%;
@@ -294,6 +296,62 @@ a:hover {
 
 .box h3 {
     margin-top: 0;
+}
+
+.screenshot {
+    position: relative;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+
+}
+
+.screenshot::before{
+    content: '\e079';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    font-size: 30px;
+    opacity: .3;
+}
+
+.screenshot::after{
+    content: '\e080';
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    font-size: 30px;
+}
+
+.screenshot:hover::after{
+    color: #0069ff;
+    cursor: pointer;
+}
+
+.img-prova {
+    margin: 30px 40px;
+    cursor: pointer;
+}
+
+.grey {
+    background-color: #f3f5f9;
+}
+
+.fa-circle {
+    color: #0069ff;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+
+.far.fa-circle:hover {
+    background: rgba(0,105,255,.2);
+    border-radius: 30px;
+}
+
+.pointer-nav {
+    cursor: default;
 }
 
 @media (max-width: 1024px) {
