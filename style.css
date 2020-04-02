@@ -299,15 +299,9 @@ a:hover {
     margin-top: 0;
 }
 
-.screenshot {
-    position: relative;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-
-}
-
-.screenshot::before{
-    content: '\e079';
+/* .screenshot::before{ */
+.arrow-left {
+    /* content: '\e079'; */
     position: absolute;
     top: 50%;
     left: 0;
@@ -316,8 +310,9 @@ a:hover {
     opacity: .3;
 }
 
-.screenshot::after{
-    content: '\e080';
+/* .screenshot::after{ */
+.arrow-right {
+    /* content: '\e080'; */
     position: absolute;
     top: 50%;
     right: 0;
@@ -325,7 +320,7 @@ a:hover {
     font-size: 30px;
 }
 
-.screenshot:hover::after{
+.arrow-right:hover{
     color: #0069ff;
     cursor: pointer;
 }
@@ -367,6 +362,7 @@ a:hover {
 #data-center h2 {
     color: white;
     font-size: 40px;
+    margin-bottom: 60px;
 }
 
 #data-center .table td:nth-of-type(2n+2) {
@@ -395,6 +391,29 @@ a:hover {
 
 #data-center a:hover {
     color: #005fe6;
+}
+
+
+#development a {
+    color: #0069ff;
+    text-decoration: underline;
+}
+
+#development-team {
+    background-color: #fff;
+    border: 1px solid #e5e8ed;
+    border-radius: 5px;
+    padding: 32px;
+    margin: 30px 40px;
+}
+
+#development-team a {
+    text-decoration: none;
+    font-weight: 500;
+}
+
+#development-team img {
+    margin-bottom: 30px;
 }
 
 @media (max-width: 1024px) {
