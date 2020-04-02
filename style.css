@@ -230,7 +230,8 @@ input:focus[type=password] {
     font-weight: 600;
 }
 
-#business-solutions a {
+#business-solutions a,
+.box a {
     font-size: 16px;
     color: #0069ff;
     font-weight: 500;
