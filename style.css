@@ -1,6 +1,3 @@
-p :not(.jumbotron){
-    color: rgba(3,27,78,.7);
-}
 
 h2, h3 {
     color: #031b4e;
@@ -56,9 +53,29 @@ h3 {
     padding-top: 15px;
 }
 
-/* .sign-in h2 {
-    margin-bottom: 30px;
-} */
+.signup::after {
+    content: "";
+    border-top: 1px solid #e5e8ed;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    width: calc((100% - 125px) / 2);
+}
+
+.signup::after {
+
+}
+
+.signup::before {
+    content: "";
+    border-top: 1px solid #e5e8ed;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    width: calc((100% - 125px) / 2);
+}
 
 .header-bottom {
     font-weight: 500;
